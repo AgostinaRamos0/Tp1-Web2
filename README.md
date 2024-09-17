@@ -1,4 +1,7 @@
 # Tp1-Web2
-Se propone diseñar una base de datos que pueda almacenar un conjunto de elementos clasificados en categorías.
-El trabajo esta desarrollado en venta de productos de indumentaria deportiva. Se crea una base de datos con tres tablas: productos, categorias y marcas. 
-Cada remera pertenece a una categoria pero una categoria puede tener multiples remeras. 
+
+El trabajo esta desarrollado en la venta de productos de indumentaria deportiva, en este caso remeras. Se crea una base de datos con tres tablas: productos, categorias y marcas. 
+Cada producto esta asociado  a una categoría (id_categoria en productos es una clave foránea que hace referencia a id_categoria en Categorías).
+Cada producto está asociado a una marca (id_marca en productos es una clave foránea que hace referencia a id_marca en Marcas).
+Una categoría puede tener múltiples productos.
+Una marca puede tener múltiples productos.
